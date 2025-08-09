@@ -56,7 +56,6 @@ def validate_symbol_and_params(client: BinanceFuturesClient, symbol: str,
     min_price = _get_filter_value(sym_info, "PRICE_FILTER", "minPrice")
     max_price = _get_filter_value(sym_info, "PRICE_FILTER", "maxPrice")
 
-    # Validate quantity
     qty_dec = Decimal(str(quantity))
     if min_qty and qty_dec < Decimal(str(min_qty)):
         result["msg"] = f"Quantity {quantity} below minQty {min_qty}"
@@ -70,7 +69,6 @@ def validate_symbol_and_params(client: BinanceFuturesClient, symbol: str,
         result["msg"] = f"Quantity {quantity} quantized to 0 with stepSize {step_size}"
         return result
 
-    # Validate price (if provided)
     adj_price = None
     if price is not None:
         price_dec = Decimal(str(price))
@@ -82,7 +80,6 @@ def validate_symbol_and_params(client: BinanceFuturesClient, symbol: str,
             return result
         adj_price = quantize_price(price, tick_size) if tick_size else price_dec
 
-    # Validate stop_price (if provided)
     adj_stop_price = None
     if stop_price is not None:
         stop_price_dec = Decimal(str(stop_price))

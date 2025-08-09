@@ -22,7 +22,6 @@ def place_limit_order(client: BinanceFuturesClient, symbol: str, side: str, quan
     if side not in ("BUY", "SELL"):
         raise ValueError("side must be BUY or SELL")
 
-    # Pass all prices to the validation function
     v = validate_symbol_and_params(client, symbol, quantity, price=price, stop_price=stop_price)
     if not v.get("ok"):
         logger.error("Validation failed: %s", v.get("msg"))
@@ -32,8 +31,6 @@ def place_limit_order(client: BinanceFuturesClient, symbol: str, side: str, quan
     adj_price = v.get("adj_price", price)
     adj_stop_price = v.get("adj_stop_price", stop_price)
 
-    # Determine the order type based on the presence of a stop_price
-    # According to Binance API docs, a STOP-LIMIT order has type='STOP'
     order_type = "STOP" if adj_stop_price else "LIMIT"
     
     log_msg = f"Placing {order_type} {side} {symbol} qty={adj_qty} price={adj_price}"
@@ -53,7 +50,6 @@ def place_limit_order(client: BinanceFuturesClient, symbol: str, side: str, quan
 
     if adj_stop_price:
         params["stopPrice"] = adj_stop_price
-        # workingType is recommended for STOP orders to specify what price to trigger on.
         params["workingType"] = "CONTRACT_PRICE"
 
     if dry_run:
@@ -77,5 +73,4 @@ if __name__ == "__main__":
     from dotenv import load_dotenv
     load_dotenv()
     client = BinanceFuturesClient(api_key=os.environ.get("BINANCE_API_KEY"), api_secret=os.environ.get("BINANCE_API_SECRET"))
-    # Example of a STOP-LIMIT dry run
     print(place_limit_order(client, "BTCUSDT", "SELL", 0.001, 64000.0, stop_price=65000.0, dry_run=True))

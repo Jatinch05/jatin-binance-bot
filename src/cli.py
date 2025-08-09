@@ -6,21 +6,17 @@ from market_orders import place_market_order
 from limit_orders import place_limit_order
 from advanced.twap import run_twap
 
-# The logger is already configured in api_client.py
-
 def print_order_summary(result):
     """Formats and prints a user-friendly summary of an order result."""
     if not result or result.get("error"):
         print(f"\nOrder Failed: {result.get('error', 'Unknown error')}")
         return
 
-    # Check for a dry_run response
     if result.get("dry_run"):
         print("\nDry Run Successful. The signed query string is:")
         print(f"   {result.get('signed_query')}")
         return
 
-    # Check for a standard order response
     if result.get("orderId"):
         print("\nOrder Placed Successfully!")
         print("---------------------------------")
@@ -30,7 +26,6 @@ def print_order_summary(result):
         print(f"  Type:       {result.get('type')}")
         print(f"  Quantity:   {result.get('origQty')}")
         
-        # Only print price for orders where it's relevant
         if result.get('type') in ['LIMIT', 'STOP']:
             print(f"  Price:      {result.get('price')}")
         if result.get('stopPrice') and float(result.get('stopPrice')) > 0:
@@ -82,7 +77,6 @@ def run_twap_order(client, args):
         dry_run=args.dry_run
     )
     
-    # Custom, more user-friendly output for TWAP
     if result and not result.get("error"):
         print("\nTWAP Strategy Completed!")
         print("---------------------------------")

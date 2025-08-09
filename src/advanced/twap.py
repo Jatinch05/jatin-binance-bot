@@ -1,4 +1,3 @@
-# src/advanced/twap.py
 """
 TWAP strategy module for Binance Futures Testnet (USDT-M).
 
@@ -21,7 +20,6 @@ from typing import Dict, Any, List
 import sys
 import os
 
-# Add the parent directory to the path so we can import from src
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from api_client import BinanceFuturesClient
@@ -41,9 +39,8 @@ def _split_quantity(total_qty: float, slices: int) -> List[Decimal]:
     total = Decimal(str(total_qty))
     if slices <= 0:
         raise ValueError("slices must be >= 1")
-    base = (total / Decimal(slices)).quantize(Decimal("1.00000000"))  # rough quantization
+    base = (total / Decimal(slices)).quantize(Decimal("1.00000000")) 
     parts = [base for _ in range(slices)]
-    # adjust the last part to consume the remainder (to avoid tiny leftover)
     summed = sum(parts)
     remainder = total - summed
     if remainder != 0:
@@ -81,26 +78,22 @@ def run_twap(client: BinanceFuturesClient, symbol: str, side: str,
     slice_parts = _split_quantity(total_quantity, slices)
     results: List[Dict[str, Any]] = []
     total_executed = Decimal("0")
-    total_quote = Decimal("0")  # sum of (qty * price) to compute weighted avg later
+    total_quote = Decimal("0")
 
     for i, part in enumerate(slice_parts):
         requested = float(part)
         ts = int(time.time() * 1000)
         logger.info("TWAP slice %d/%d requested_qty=%s", i + 1, slices, requested)
 
-        # Validate & quantize quantity for the symbol
         v = validate_symbol_and_params(client, symbol, requested, price=None)
         if not v.get("ok"):
             logger.error("TWAP slice %d validation failed: %s", i + 1, v.get("msg"))
             results.append({"slice": i + 1, "requested_qty": requested, "ok": False, "error": v.get("msg")})
-            # Decide: continue to next slice or abort. We'll continue but record error.
             if i != slices - 1:
                 time.sleep(interval_sec)
             continue
 
         adj_qty = v.get("adj_quantity", requested)
-
-        # Build params for MARKET order
         params = {
             "symbol": symbol,
             "side": side,
@@ -111,7 +104,6 @@ def run_twap(client: BinanceFuturesClient, symbol: str, side: str,
         }
 
         if dry_run:
-            # Build signed query string but do not send
             qs = "&".join(f"{k}={params[k]}" for k in sorted(params))
             try:
                 sig = client._sign(qs)
@@ -123,7 +115,6 @@ def run_twap(client: BinanceFuturesClient, symbol: str, side: str,
                 logger.exception("TWAP slice %d dry-run signing failed: %s", i + 1, e)
                 results.append({"slice": i + 1, "requested_qty": requested, "error": str(e), "timestamp": ts})
         else:
-            # Send the MARKET order
             try:
                 resp = client._request_with_backoff("POST", "/fapi/v1/order", {
                     "symbol": params["symbol"], "side": params["side"], "type": params["type"], "quantity": params["quantity"]
@@ -131,7 +122,6 @@ def run_twap(client: BinanceFuturesClient, symbol: str, side: str,
                 logger.info("TWAP slice %d response: %s", i + 1, resp)
                 results.append({"slice": i + 1, "requested_qty": requested, "adj_quantity": adj_qty,
                                 "resp": resp, "timestamp": ts})
-                # If filled info present, accumulate executed qty and money
                 executed_qty = Decimal(str(resp.get("executedQty", "0"))) if isinstance(resp.get("executedQty", "0"), (str, float, int)) else Decimal("0")
                 avg_price = Decimal(str(resp.get("avgPrice", "0"))) if resp.get("avgPrice") else Decimal("0")
                 if executed_qty > 0 and avg_price > 0:
@@ -141,7 +131,6 @@ def run_twap(client: BinanceFuturesClient, symbol: str, side: str,
                 logger.exception("TWAP slice %d failed: %s", i + 1, e)
                 results.append({"slice": i + 1, "requested_qty": requested, "error": str(e), "timestamp": ts})
 
-        # Sleep between slices except after last slice
         if i != slices - 1:
             logger.info("TWAP sleeping for %ds before next slice", interval_sec)
             time.sleep(interval_sec)

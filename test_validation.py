@@ -3,15 +3,8 @@ import json
 import sys
 from dotenv import load_dotenv
 
-# --- The Magic Fix ---
-# This block tells Python where to find your 'src' folder.
-# 1. os.path.dirname(__file__) gets the directory of this test file (your project root).
-# 2. os.path.join(...) creates a full path to your 'src' folder (e.g., 'D:\Binance-bot\src').
-# 3. sys.path.append(...) adds this 'src' path to the list of places Python looks for modules.
-# This line MUST come BEFORE you try to import your own modules.
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-# Now that Python knows where to look, these imports will work perfectly.
 from api_client import BinanceFuturesClient
 from validation import validate_symbol_and_params
 

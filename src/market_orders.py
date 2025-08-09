@@ -31,7 +31,6 @@ def place_market_order(client: BinanceFuturesClient, symbol: str, side: str, qua
     }
 
     if dry_run:
-        # Build signed query string but do not send
         try:
             params.setdefault("timestamp", client._timestamp())
             params.setdefault("recvWindow", client.recv_window)
@@ -48,7 +47,6 @@ def place_market_order(client: BinanceFuturesClient, symbol: str, side: str, qua
 
 
 if __name__ == "__main__":
-    # quick test if run directly (dry-run to avoid accidental orders)
     import os
     from dotenv import load_dotenv
     load_dotenv()

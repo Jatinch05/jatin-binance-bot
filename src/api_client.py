@@ -24,7 +24,6 @@ api_secret = os.getenv("BINANCE_API_SECRET")
 TESTNET_BASE_URL = "https://testnet.binancefuture.com"
 FAPI_EXCHANGE_INFO = "/fapi/v1/exchangeInfo"
 
-# --- Robust Logging Setup ---
 PROJECT_ROOT = Path(__file__).parent.parent
 BOT_LOG_PATH = PROJECT_ROOT / "bot.log"
 API_LOG_PATH = PROJECT_ROOT / "api_requests.log"
@@ -43,12 +42,8 @@ if not logger.handlers:
 
 api_logger = logging.getLogger("api")
 if not api_logger.handlers:
-    # --- THIS IS THE FIX ---
-    # Change the logging level from DEBUG to INFO.
-    # This will prevent the raw response from being processed by the console handler.
     api_logger.setLevel(logging.INFO) 
     api_fh = logging.FileHandler(API_LOG_PATH)
-    # We can keep the file handler at DEBUG if we still want all details in the file.
     api_fh.setLevel(logging.DEBUG) 
     api_fh.setFormatter(logging.Formatter("%(message)s"))
     api_logger.addHandler(api_fh)
@@ -96,7 +91,6 @@ class BinanceFuturesClient:
         attempt = 0
         backoff = 0.5
         while attempt <= max_retries:
-            # This debug message will now only go to the file, not the console.
             api_logger.debug(json.dumps({
                 "attempt": attempt,
                 "url": full_url,
@@ -112,7 +106,6 @@ class BinanceFuturesClient:
                 else:
                     raise ValueError("Unsupported method")
 
-                # This debug message will also now only go to the file.
                 api_logger.debug(json.dumps({
                     "status_code": resp.status_code,
                     "response": resp.text
