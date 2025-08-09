@@ -16,7 +16,6 @@ def place_limit_order(client: BinanceFuturesClient, symbol: str, side: str, quan
     Places a LIMIT or STOP-LIMIT order.
     - If stop_price is None, a standard LIMIT order is placed.
     - If stop_price is provided, a STOP-LIMIT order is placed.
-      (The API type for this is 'STOP' with both price and stopPrice).
     """
     side = side.upper()
     if side not in ("BUY", "SELL"):

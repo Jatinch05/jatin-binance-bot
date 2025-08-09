@@ -3,7 +3,6 @@ Binance Futures API client (Testnet-ready)
 - Signed requests with HMAC-SHA256
 - Exponential backoff for 429/5xx
 - get_exchange_info() helper
-Run directly to do a quick exchangeInfo fetch smoke test.
 """
 import os
 import time
