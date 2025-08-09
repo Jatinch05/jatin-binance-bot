@@ -1,0 +1,191 @@
+2025-08-09 11:50:02,845 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 11:50:02,847 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:50:04,208 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=True)
+2025-08-09 11:55:09,538 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 11:55:09,538 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:55:10,499 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:55:10,803 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:55:11,024 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:55:11,259 [DEBUG] Fetching exchangeInfo
+2025-08-09 11:55:11,952 [DEBUG] Fetching exchangeInfo
+2025-08-09 12:45:38,931 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 12:45:38,942 [DEBUG] Fetching exchangeInfo
+2025-08-09 12:45:40,291 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 12:45:40,627 [INFO] Market order response: {'orderId': 5557205250, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'yj4ulVKB18iNMLUrprXHuL', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754723742054}
+2025-08-09 12:46:10,534 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 12:46:10,535 [DEBUG] Fetching exchangeInfo
+2025-08-09 12:46:11,307 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 12:46:11,534 [INFO] Market order response: {'orderId': 5557207897, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'gYrOPEwFFVPqYn0vi5vRPX', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754723772876}
+2025-08-09 13:00:06,947 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:00:06,948 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:00:08,899 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 13:00:09,267 [INFO] Market order response: {'orderId': 5557254930, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '5OX754SrxPuplzbjVqqUGO', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754724610671}
+2025-08-09 13:02:00,892 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:02:00,892 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:02:02,210 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 13:02:02,359 [INFO] Market order response: {'orderId': 5557261604, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'z7CUmhTQzQRSkS35qKUWpj', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754724723747}
+2025-08-09 13:07:00,570 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:07:00,570 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:07:02,482 [INFO] Placing STOP SELL ETHUSDT qty=0.1 price=2999.0 stopPrice=3000.0 tif=GTC (dry_run=False)
+2025-08-09 13:07:02,618 [INFO] Limit/Stop-Limit order response: {'orderId': 4951188214, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'U8m5TRqtQXCnCfAO1BGDdR', 'price': '2999.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '3000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725024007}
+2025-08-09 13:08:24,946 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:08:24,946 [INFO] Starting TWAP: symbol=LINKUSDT side=BUY total_qty=50.0 slices=5 interval=10s dry_run=False
+2025-08-09 13:08:24,947 [INFO] TWAP slice 1/5 requested_qty=10.0
+2025-08-09 13:08:24,947 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:08:26,588 [INFO] TWAP slice 1 response: {'orderId': 189617456, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'maKIxnR6cnPhQAwlN0vG31', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725107986}
+2025-08-09 13:08:26,588 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:08:36,597 [INFO] TWAP slice 2/5 requested_qty=10.0
+2025-08-09 13:08:36,597 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:08:37,762 [INFO] TWAP slice 2 response: {'orderId': 189617467, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'Al01kAzPygB61CJd3BNCfu', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725119151}
+2025-08-09 13:08:37,762 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:08:47,765 [INFO] TWAP slice 3/5 requested_qty=10.0
+2025-08-09 13:08:47,765 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:08:48,647 [INFO] TWAP slice 3 response: {'orderId': 189617481, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'e9IM7WESqtChejqRtInK5u', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725130035}
+2025-08-09 13:08:48,647 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:08:58,648 [INFO] TWAP slice 4/5 requested_qty=10.0
+2025-08-09 13:08:58,648 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:08:59,273 [INFO] TWAP slice 4 response: {'orderId': 189617487, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'ljLyE7weAq2rn6BIfxNBDe', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725140661}
+2025-08-09 13:08:59,273 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:09:09,275 [INFO] TWAP slice 5/5 requested_qty=10.0
+2025-08-09 13:09:09,275 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:09:10,091 [INFO] TWAP slice 5 response: {'orderId': 189617498, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'Azohtvocdt4rUVX6T30zYF', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725151476}
+2025-08-09 13:09:10,091 [INFO] TWAP completed: {'total_executed': 0.0, 'avg_price': 0.0, 'slices_attempted': 5, 'slices_successful': 0}
+2025-08-09 13:16:38,462 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:16:38,462 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:16:39,526 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 13:16:39,951 [INFO] Market order response: {'orderId': 5557309435, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'nR5UUKt4PP52OSAVzxNuaE', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725601237}
+2025-08-09 13:16:59,184 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:16:59,184 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:16:59,761 [INFO] Placing STOP SELL ETHUSDT qty=0.1 price=2999.0 stopPrice=3000.0 tif=GTC (dry_run=False)
+2025-08-09 13:17:00,132 [INFO] Limit/Stop-Limit order response: {'orderId': 4951194356, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'NHfwyzQYAjWh3Xb5lqFDvQ', 'price': '2999.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '3000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725621497}
+2025-08-09 13:17:10,242 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:17:10,242 [INFO] Starting TWAP: symbol=LINKUSDT side=BUY total_qty=50.0 slices=5 interval=10s dry_run=False
+2025-08-09 13:17:10,242 [INFO] TWAP slice 1/5 requested_qty=10.0
+2025-08-09 13:17:10,243 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:17:10,795 [ERROR] Network error on request: Response ended prematurely
+Traceback (most recent call last):
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Binance-bot\venv\Lib\site-packages\urllib3\response.py", line 1088, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "D:\Binance-bot\venv\Lib\site-packages\urllib3\response.py", line 1248, in read_chunked
+    self._update_chunk_length()
+  File "D:\Binance-bot\venv\Lib\site-packages\urllib3\response.py", line 1178, in _update_chunk_length
+    raise ProtocolError("Response ended prematurely") from None
+urllib3.exceptions.ProtocolError: Response ended prematurely
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Binance-bot\src\api_client.py", line 107, in _request_with_backoff
+    resp = self.session.get(full_url, timeout=10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\sessions.py", line 746, in send
+    r.content
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\models.py", line 902, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Binance-bot\venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: Response ended prematurely
+2025-08-09 13:17:11,839 [INFO] TWAP slice 1 response: {'orderId': 189617977, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'zM4KGuivgKv89kgvZEyFgS', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725633217}
+2025-08-09 13:17:11,839 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:17:21,844 [INFO] TWAP slice 2/5 requested_qty=10.0
+2025-08-09 13:17:21,844 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:17:22,446 [INFO] TWAP slice 2 response: {'orderId': 189617985, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'P3Vu3KBVyyfSUyt2zCRTLr', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725643819}
+2025-08-09 13:17:22,450 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:17:59,715 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:17:59,715 [INFO] Starting TWAP: symbol=LINKUSDT side=BUY total_qty=50.0 slices=5 interval=10s dry_run=False
+2025-08-09 13:17:59,715 [INFO] TWAP slice 1/5 requested_qty=10.0
+2025-08-09 13:17:59,716 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:18:00,592 [INFO] TWAP slice 1 response: {'orderId': 189618010, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'SQSuyD4I6aVqI1Cy9bqYbh', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725681964}
+2025-08-09 13:18:00,592 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:18:10,593 [INFO] TWAP slice 2/5 requested_qty=10.0
+2025-08-09 13:18:10,594 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:18:11,389 [INFO] TWAP slice 2 response: {'orderId': 189618017, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'n6A4QMlLKXkYtW8pacnob0', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725692762}
+2025-08-09 13:18:11,389 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:18:21,395 [INFO] TWAP slice 3/5 requested_qty=10.0
+2025-08-09 13:18:21,395 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:18:22,178 [INFO] TWAP slice 3 response: {'orderId': 189618026, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'FOZnYKO0nAepviYttM7G8O', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725703549}
+2025-08-09 13:18:22,180 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:18:32,180 [INFO] TWAP slice 4/5 requested_qty=10.0
+2025-08-09 13:18:32,180 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:18:32,975 [INFO] TWAP slice 4 response: {'orderId': 189618034, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': '8hhrbpg78xV7XLkmKU9OgP', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725714348}
+2025-08-09 13:18:32,975 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:18:42,976 [INFO] TWAP slice 5/5 requested_qty=10.0
+2025-08-09 13:18:42,976 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:18:43,572 [INFO] TWAP slice 5 response: {'orderId': 189618043, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'RuT85h7D4lqMIZhgS9wHnI', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725724946}
+2025-08-09 13:18:43,573 [INFO] TWAP completed: {'total_executed': 0.0, 'avg_price': 0.0, 'slices_attempted': 5, 'slices_successful': 0}
+2025-08-09 13:19:46,054 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:19:46,055 [INFO] Starting TWAP: symbol=LINKUSDT side=BUY total_qty=50.0 slices=5 interval=10s dry_run=False
+2025-08-09 13:19:46,055 [INFO] TWAP slice 1/5 requested_qty=10.0
+2025-08-09 13:19:46,055 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:19:46,917 [INFO] TWAP slice 1 response: {'orderId': 189618093, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': '4poh96CY8x2sKbZsG9lUrA', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725788285}
+2025-08-09 13:19:46,919 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:19:56,920 [INFO] TWAP slice 2/5 requested_qty=10.0
+2025-08-09 13:19:56,920 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:19:57,414 [INFO] TWAP slice 2 response: {'orderId': 189618117, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'RTIUjFb3BgNsgrJHTrK0bO', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725798782}
+2025-08-09 13:19:57,414 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:20:07,415 [INFO] TWAP slice 3/5 requested_qty=10.0
+2025-08-09 13:20:07,415 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:20:07,706 [INFO] TWAP slice 3 response: {'orderId': 189618134, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'hu3BygJvp1Pgc13p1DFgqg', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725809072}
+2025-08-09 13:20:07,706 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:20:17,708 [INFO] TWAP slice 4/5 requested_qty=10.0
+2025-08-09 13:20:17,709 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:20:18,503 [INFO] TWAP slice 4 response: {'orderId': 189618136, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': '6Ue2ihIvfD0q5KSBfkBOPX', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725819870}
+2025-08-09 13:20:18,503 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:20:28,504 [INFO] TWAP slice 5/5 requested_qty=10.0
+2025-08-09 13:20:28,504 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:20:29,315 [INFO] TWAP slice 5 response: {'orderId': 189618148, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': '31tPIDKObGVajTx4URoWJl', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725830672}
+2025-08-09 13:20:29,315 [INFO] TWAP completed: {'total_executed': 0.0, 'avg_price': 0.0, 'slices_attempted': 5, 'slices_successful': 0}
+2025-08-09 13:21:18,099 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:21:18,115 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:21:19,222 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 13:21:19,353 [INFO] Market order response: {'orderId': 5557325357, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'Vd9xUWqcWxnOmNYZQ1o1he', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725880725}
+2025-08-09 13:21:47,270 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:21:47,270 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:21:47,949 [INFO] Placing STOP SELL ETHUSDT qty=0.1 price=2999.0 stopPrice=3000.0 tif=GTC (dry_run=False)
+2025-08-09 13:21:48,286 [INFO] Limit/Stop-Limit order response: {'orderId': 4951196761, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'cSAEIgSfR3Eh7eyPN98PPx', 'price': '2999.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '3000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754725909655}
+2025-08-09 13:36:33,829 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:36:33,830 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:36:34,830 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:36:35,286 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:36:35,796 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:36:36,083 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:36:36,714 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:37:31,542 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:37:31,543 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:37:31,899 [INFO] Placing MARKET BUY BTCUSDT qty=0.001 (dry_run=False)
+2025-08-09 13:37:32,033 [INFO] Market order response: {'orderId': 5557379438, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'CtrD35k6bGRYt84Lkdv5Ac', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726853371}
+2025-08-09 13:38:31,299 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:38:31,299 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:38:36,032 [INFO] Placing STOP SELL ETHUSDT qty=0.1 price=2999.0 stopPrice=3000.0 tif=GTC (dry_run=False)
+2025-08-09 13:38:36,185 [INFO] Limit/Stop-Limit order response: {'orderId': 4951206535, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'Q2oolumNCCLzNnG2SjTvh3', 'price': '2999.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '3000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726917497}
+2025-08-09 13:39:10,959 [DEBUG] BinanceFuturesClient initialized (base_url=https://testnet.binancefuture.com)
+2025-08-09 13:39:10,960 [INFO] Starting TWAP: symbol=LINKUSDT side=BUY total_qty=50.0 slices=5 interval=10s dry_run=False
+2025-08-09 13:39:10,960 [INFO] TWAP slice 1/5 requested_qty=10.0
+2025-08-09 13:39:10,960 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:39:11,818 [INFO] TWAP slice 1 response: {'orderId': 189619020, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'F2NnltyCaAsEkMypprw0s8', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726953151}
+2025-08-09 13:39:11,818 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:39:21,819 [INFO] TWAP slice 2/5 requested_qty=10.0
+2025-08-09 13:39:21,819 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:39:22,650 [INFO] TWAP slice 2 response: {'orderId': 189619033, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'qvFHA3FvrprEGxGJfz6nHz', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726963993}
+2025-08-09 13:39:22,650 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:39:32,660 [INFO] TWAP slice 3/5 requested_qty=10.0
+2025-08-09 13:39:32,660 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:39:33,508 [INFO] TWAP slice 3 response: {'orderId': 189619042, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'vUwXnvPDwMmF2OJWghNZl5', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726974841}
+2025-08-09 13:39:33,508 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:39:43,509 [INFO] TWAP slice 4/5 requested_qty=10.0
+2025-08-09 13:39:43,510 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:39:44,341 [INFO] TWAP slice 4 response: {'orderId': 189619047, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'zjn5VKPnVL3Yo6n0vXnFwq', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726985663}
+2025-08-09 13:39:44,341 [INFO] TWAP sleeping for 10s before next slice
+2025-08-09 13:39:54,342 [INFO] TWAP slice 5/5 requested_qty=10.0
+2025-08-09 13:39:54,342 [DEBUG] Fetching exchangeInfo
+2025-08-09 13:39:55,297 [INFO] TWAP slice 5 response: {'orderId': 189619075, 'symbol': 'LINKUSDT', 'status': 'NEW', 'clientOrderId': 'ZKHBvOLzm1DXxBV5Wl8Jcs', 'price': '0.000', 'avgPrice': '0.00', 'origQty': '10.00', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1754726996627}
+2025-08-09 13:39:55,297 [INFO] TWAP completed: {'total_executed': 0.0, 'avg_price': 0.0, 'slices_attempted': 5, 'slices_successful': 0}
